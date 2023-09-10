@@ -11,8 +11,7 @@ arr.sort((a,b)=> a-b );
 			if(Math.abs(sum-target) < Math.abs(closestsum-target))
 				closestsum=sum;
 
-			while(j<k && arr[j-1]!=arr[j]) j++;
-			while(k>j && arr[k+1]!=arr[k]) k--;
+		
 
 			if(sum>target) k--;
 			else j++;
